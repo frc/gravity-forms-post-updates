@@ -1,6 +1,7 @@
 {
     "name": "frc/gravity-forms-post-updates",
-    "version": "dev-master",
+    "version": "master",
+    "type": "wordpress-plugin",
     "dist": {
         "url": "https://github.com/frc/gravity-forms-post-updates",
         "type": "git"

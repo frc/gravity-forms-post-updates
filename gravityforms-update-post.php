@@ -1017,9 +1017,12 @@ class gform_update_post
 					$field['allowsPrepopulate'] = true;
 					$field['inputName'] = $field['postCustomFieldName'];
 
-					$value = $new_value;
-					add_filter( 'gform_field_value_' . $field['inputName'], function($value) use($value) { return $value; } );
-				}
+					 $value = $new_value;
+                  			 $value_option = $value;
+
+					add_filter( 'gform_field_value_' . $field['inputName'], function($value) use($value_option) { return $value; } );
+
+                }
 				break;
 
 			#case 'select':

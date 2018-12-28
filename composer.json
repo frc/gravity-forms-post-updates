@@ -3,10 +3,6 @@
     "version": "master",
     "description": "Forked version of gravity-forms-post-updates fixed to work with php 7.1+",
     "type": "wordpress-plugin",
-    "dist": {
-        "url": "https://github.com/frc/gravity-forms-post-updates",
-        "type": "git"
-    },
     "require": {
         "composer/installers": "~1.0"
     }

@@ -1,0 +1,7 @@
+{
+    "packages": {
+        "frc/gravity-forms-post-updates": {
+            "dev-master": { @composer.json }
+        }
+    }
+}

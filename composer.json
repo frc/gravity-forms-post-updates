@@ -1,0 +1,8 @@
+{
+    "name": "frc/gravity-forms-post-updates",
+    "version": "dev-master",
+    "dist": {
+        "url": "https://github.com/frc/gravity-forms-post-updates",
+        "type": "vcs"
+    }
+}

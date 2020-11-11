@@ -40,7 +40,7 @@ class gform_update_post
 	 * @since 	1.2
 	 * @var 	string
 	 */
-	const VERSION = '1.2.23';
+	const VERSION = '1.2.24';
 
 	/**
 	 * Settings
@@ -696,7 +696,7 @@ class gform_update_post
 		if (! empty($field['type']) && 'post_image' == $field['type'] && ! empty($field['postFeaturedImage']) )
 		{
 			$thumb_id  = get_post_thumbnail_id(self::$post->ID);
-			if ( is_numeric($thumb_id) )
+			if ( is_numeric($thumb_id) && $thumb_id > 0 )
 			{
 				$thumb_url = wp_get_attachment_image_src($thumb_id, 'thumbnail', true);
 				$full_url  = wp_get_attachment_image_src($thumb_id, 'full', true);
